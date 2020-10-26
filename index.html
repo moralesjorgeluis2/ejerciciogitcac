@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        td {
+            padding-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h4>Ingreso al Sistema</h4>
+        <form action="#" id="login">
+        <table>
+            <tr>
+                <td>
+                    <label for="name"><b>Usuario:</b></label>
+                </td>
+                <td>
+                    <input type="text" id="name" required>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass"><b>Clave:</b></label>
+                </td>
+                <td>
+                    <input type="password" id="pass" required>
+                </td>
+            </tr>
+        </table>
+        <button type="button" onclick="verify()">Ingresar</button>
+    </form>
+    </div>
+    <script src="control.js"></script>
+</body>
+
+</html>
